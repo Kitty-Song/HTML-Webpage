@@ -40,4 +40,4 @@ h1:hover, .stars:hover {
 	font-family: georgia;
 }
 /*Class vs Id
-Class works when you have two different elements like <h1> and <p> and you want both of them to have the same CSS properties. Id however, only works when you want the same elements to have the same CSS properties, so <h1> and another <h1>.*/
+Class works when you want two different elements like <h1> and <p> and you want both of them to have the same CSS properties. Id however, only works when you want one element to have the CSS properties.*/
