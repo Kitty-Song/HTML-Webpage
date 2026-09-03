@@ -1,0 +1,43 @@
+body {
+	text-align: center; 
+	background-color: #f0decc;
+}
+h1 {
+	font-size: 39px;
+}
+h1:hover, .stars:hover {
+	color: #ff0a58;
+}
+.stars {
+	font-size: 30px;
+}
+.Description {
+	font-family: courier; 
+	font-size: 20px;
+}
+.Figcaption {
+	font-size: 10px;
+}
+.Photos {
+	width:350px;
+	height:450px; 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+#Peach {
+	width:350px;
+	height:350px; 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+#Gap {
+	margin-bottom: 90px;
+}
+#title {
+	font-size: 45px;
+	font-family: georgia;
+}
+/*Class vs Id
+Class works when you have two different elements like <h1> and <p> and you want both of them to have the same CSS properties. Id however, only works when you want the same elements to have the same CSS properties, so <h1> and another <h1>.*/

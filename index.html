@@ -1,29 +1,43 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Collection of Sweets and Drinks</title> <!--I chose this title instead of 'Review of Sweets and Drinks' because I felt like other than the star rating, I didn't add a review description to the review yet. Therefore, I won't change the title and kept it as is since if I added more to this page, there would be more comsumables and it would be a collection.-->
+		<title>Collection of Sweets and Drinks</title> <!--I chose this title instead of 'Review of Sweets and Drinks' because I felt like other than the star rating, I didn't add a review description to the review yet.-->
+		<link rel="stylesheet" href="style.css">
 	</head>
-	<body style="text-align: center; background-color: #fff9eb;">
-		<blockquote cite="">Eat well. Sleep well. Live well.</blockquote>
-		<br>
-		
-		<h1 style="font-size: 38px;">Tiramisu</h1>
-		<p style="font-size: 30px;">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-		<p style ="font-family: courier; font-size: 20px;">Tiramisu is an Italian dessert made with coffee-soaked ladyfingers (savoiardi) covered with a cream of egg yolks, sugar, mascarpone, and cocoa powder. It originated in northeastern Italy, and modern versions were popularized in restaurants from the late 1960s. Tiramisu has become one of the most internationally recognised Italian desserts and has inspired many variations in home and professional cooking. The name comes from the Italian tirami su, meaning "pick me up" or "cheer me up".  (Source: <a href="http://en.wikipedia.org/wiki/Tiramisu">Wikipedia</a>)</p>
+	<body>
+	    <h1 id="title">My Collection of Food Reviews</h1>
+		<blockquote id="Gap">Eat well. Sleep well. Live well.</blockquote>
+		<h1>Tiramisu</h1>
+		<p class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+		<p class="Description">
+			Tiramisu is an Italian dessert made with coffee-soaked ladyfingers (savoiardi) covered with a cream of egg yolks, sugar, mascarpone, and cocoa powder. It originated in northeastern Italy, and modern versions were popularized in restaurants from the late 1960s. Tiramisu has become one of the most internationally recognised Italian desserts and has inspired many variations in home and professional cooking. The name comes from the Italian tirami su, meaning "pick me up" or "cheer me up".  (Source: <a href="http://en.wikipedia.org/wiki/Tiramisu">Wikipedia</a>)
+		</p>
 		<!-- https://vintagekitchennotes.com/wp-content/uploads/2025/11/Classic-tiramisu-cups.jpg -->
 		<figure>
-		<img src=" https://vintagekitchennotes.com/wp-content/uploads/2025/11/Classic-tiramisu-cups.jpg" alt="Tiramisu" style="width:350px;height:450px; display: block; margin-left: auto; margin-right: auto;">
-		<!--I used jpg for the two photos because it has universal compatibility, take up less space on the computer, and I'm not very concerned with the photo quality, the pictures' purpose is to give a idea what the consumable looks like in general. Also, when I uploaded the photo link, it was automatically jpg.-->
-		<figcaption style="font-size: 10px;">Image source from Vintage Kitchen Notes</figcaption>
+			<img src=" https://vintagekitchennotes.com/wp-content/uploads/2025/11/Classic-tiramisu-cups.jpg" alt="Tiramisu" class="Photos">
+			<!--I used jpg for the two photos because it has universal compatibility, take up less space on the computer, and I'm not very concerned with the photo quality, the pictures' purpose is to give a idea what the consumable looks like in general. Also, when I uploaded the photo link, it was automatically jpg.-->
+			<figcaption class="Figcaption">Image source from Vintage Kitchen Notes</figcaption>
 		</figure>
 		<br>
 		
-		<h1 style="font-size: 38px;">Mango Pomelo Sago</h1>
-		<p style="font-size: 30px;">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-		<p style ="font-family: courier; font-size: 20px;">Mango pomelo sago is a type of contemporary Hong Kong dessert. It usually includes diced mango, pomelo, sago, coconut milk, and milk. It can be found in many Chinese restaurants and dessert stores in Hong Kong, as well as in Singapore, Malaysia, Guangdong, Taiwan and Papua New Guinea. Over time, this dessert has evolved into many different variations; for example, it can serve as a flavor for other desserts and drinks. (Source: <a href="https://en.wikipedia.org/wiki/Mango_pomelo_sago">WIkipedia</a>)</p>
+		<h1>Mango Pomelo Sago</h1>
+		<p class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+		<p class="Description">
+			Mango pomelo sago is a type of contemporary Hong Kong dessert. It usually includes diced mango, pomelo, sago, coconut milk, and milk. It can be found in many Chinese restaurants and dessert stores in Hong Kong, as well as in Singapore, Malaysia, Guangdong, Taiwan and Papua New Guinea. Over time, this dessert has evolved into many different variations; for example, it can serve as a flavor for other desserts and drinks. (Source: <a href="https://en.wikipedia.org/wiki/Mango_pomelo_sago">Wikipedia</a>)
+		</p>
 		<figure>
-		<img src="https://cdn.tasteatlas.com/images/dishes/78d16799d6244a9f8838c2c118361067.jpg?w=600" alt="Mango Sago" style="width:350px;height:450px; display: block; margin-left: auto; margin-right: auto;">
-		<figcaption style="font-size: 10px;">Image source from Taste Atlas</figcaption>
+			<img src="https://cdn.tasteatlas.com/images/dishes/78d16799d6244a9f8838c2c118361067.jpg?w=600" alt="Mango Sago" class="Photos">
+			<figcaption class="Figcaption">Image source from Taste Atlas</figcaption>
+		</figure>
+		
+		<h1>Peach Juice Smoothie</h1>
+		<p class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+		<p class="Description">
+			One of the fruit drinks on Summer Juice's (Shu Xia) menu in China, served cold with the options of no ice or less ice, and 25%-50%-75%-100% sugar. The drink contains diced peaches and tastes pretty sweet at 100% sugar so I usually get it at 50-75%. This flavor I really like is pretty standard as a peach flavored drink across other brands which is why I always end up ordering either a peach and mango drink. You can't really mess up the drinks when it's those flavors.
+		</p>
+		<figure>
+			<img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_150/cso4ybvcuimn1szv3p7z" alt="Peach Juice Smoothie" id="Peach">
+			<figcaption class="Figcaption">Image Source from Grubhub</figcaption>
 		</figure>
 	</body>
 </html>
